@@ -4,7 +4,7 @@ import java.io.IOException;
 
 public class LeerCSVSeguro {
     public static void main(String[] args) {
-        String ruta = "personas.csv";
+        String ruta = "src/persona.csv";
         String linea;
 
         try (BufferedReader br = new BufferedReader(new FileReader(ruta))) {
